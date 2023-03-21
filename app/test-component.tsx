@@ -28,7 +28,8 @@ const useStyles = createStyles((theme, props) => ({
 
 export function Test() {
   const [textColor, setTextColor] = useState('red');
-  // You can add these classes as classNames to any Mantine input, it will work the same
+  // You can add these classes as classNames to any Mantine input,
+  // it will work the same
   // @ts-ignore
   const { classes } = useStyles({ textColor });
 
